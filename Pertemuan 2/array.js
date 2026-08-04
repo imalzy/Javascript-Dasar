@@ -18,8 +18,16 @@ const panjangArr = arr2.length;
 const buah = ["Jeruk", "Semangka", "Pear", "Jambu", "Anggur", "Kurma"];
 // Buah semangka ada di rak 1 atau semangka ada di index 1;
 // ada di index ke berapakah jambu ? index 3
-for (let i = 0; i < buah.length; i++) {
-    if(buah[i] === "Jambu"){
-        console.log(`Buah jambu ada di rak / index ke - ${i}`);
-    }
-}
+// for (let i = 0; i < buah.length; i++) {
+//     if(buah[i] === "Jambu"){
+//         console.log(`Buah jambu ada di rak / index ke - ${i}`);
+//     }
+// }
+
+// array manipulation
+// const jambuIndex = buah.findIndex(b => b === "Jambu");
+// console.log(`Buah jambu ada di rak / index ke - ${jambuIndex}`);
+
+console.log(`Base array ${buah}`);
+buah.unshift('Tomat');
+console.log(`Setelah di tambah ${buah}`);
