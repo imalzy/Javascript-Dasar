@@ -48,32 +48,38 @@
 let nama = 'Ray'; // tipe data string
 let kota = 'Medan';
 console.log('nama', nama);
+console.log(typeof nama); // typeof untuk check tipe data
 
 
 // 2. number
 let umur = 14;
 let tinggi = 155;
 console.log('umur', umur);
+console.log(typeof umur); // typeof untuk check tipe data
 
 
 // 3. boolean;
 let isLogin = true;
 let isAdmin = false;
 console.log('isLogin', isLogin);
+console.log(typeof isLogin); // typeof untuk check tipe data
 
 // 4. Undefined;
 let nilai;
 console.log(nilai);
+console.log(typeof nilai); // typeof untuk check tipe data
 
 // 5. Null;
 let data = null;
 console.log('data', data);
+console.log(typeof data); // typeof untuk check tipe data
 
 // 6. Symbol
 const id1 = Symbol("id")
 const id2 = Symbol("id")
 console.log('Symbol', id1);
 console.log('Symbol', id2);
+console.log(typeof id1); // typeof untuk check tipe data
 
 
 // TIPE DATA NON PRIMITIF
@@ -83,10 +89,12 @@ let user1 = {
     age: 14
 }
 console.log('user1', user1);
+console.log(typeof user1); // typeof untuk check tipe data
 
 // 8. Array
 const buah = ["apple", "orange", "Mango"]
 console.log('buah', buah);
+console.log(typeof buah); // typeof untuk check tipe data
 
 
 // 9. Function
@@ -94,6 +102,7 @@ function sayHello() {
     console.log(`Selamat Datang`);
 }
 console.log('sayHello', sayHello);
+console.log(typeof sayHello); // typeof untuk check tipe data
 
 // arrow function
 const tambah = () => {
