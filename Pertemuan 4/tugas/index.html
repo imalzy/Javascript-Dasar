@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator BMI Interaktif</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="calculator-card">
+    <h2>Kalkulator BMI</h2>
+    <p class="subtitle">Hitung Indeks Massa Tubuh Anda</p>
+
+    <div class="input-group">
+      <label for="weight">Berat Badan (kg)</label>
+      <input type="number" id="weight" placeholder="Contoh: 65" min="1">
+    </div>
+
+    <div class="input-group">
+      <label for="height">Tinggi Badan (cm)</label>
+      <input type="number" id="height" placeholder="Contoh: 170" min="1">
+    </div>
+
+    <button id="calcBtn">Hitung BMI</button>
+
+    <p id="errorMsg" class="error-msg"></p>
+
+    <div id="resultContainer" class="result-container hidden">
+      <h3>Hasil Anda:</h3>
+      <div id="bmiValue" class="bmi-value">0</div>
+      <p id="bmiCategory" class="bmi-category">-</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
