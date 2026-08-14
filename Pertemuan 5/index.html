@@ -1,11 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Status Bar Waktu Real-Time</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <div class="card">
+    <h2>Status Waktu Hari Ini</h2>
     
+    <div id="jam-digital" class="clock">00:00:00</div>
+
+    <div class="progress-container">
+      <div id="progress-bar" class="progress-bar"></div>
+    </div>
+
+    <p id="teks-persentase">0% hari ini telah berlalu</p>
+  </div>
+
+  <script src="main.js"></script>
 </body>
 </html>
