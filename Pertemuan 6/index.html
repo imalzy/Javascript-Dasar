@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Validasi Form Dasar</title>
+  <link rel="stylesheet" href="./main.css" />
+</head>
+
+<body>
+  <div class="container">
+    <form id="myForm" novalidate>
+      <h2>Form Pendaftaran</h2>
+
+      <div class="form-group" id="group-nama">
+        <label for="nama">Nama Lengkap</label>
+        <input type="text" id="nama" placeholder="Masukkan nama Anda" />
+        <!-- style="border: 2px solid #e74c3c;" -->
+        <small class="error-text"></small>
+      </div>
+
+      <div class="form-group" id="group-email">
+        <label for="email">Alamat Email</label>
+        <input type="email" id="email" placeholder="contoh@email.com" />
+        <small class="error-text"></small>
+      </div>
+
+      <div class="form-group" id="group-country">
+        <label for="country">Country</label>
+        <select id="country">
+          <option value="" disabled>Pilih Negara</option>
+          <option value="id">Indonesia</option>
+          <option value="sg">Singapore</option>
+          <option value="my">Malaysia</option>
+        </select>
+        <small class="error-text"></small>
+      </div>
+      <button style="margin-bottom: 10px" type="submit">Daftar</button>
+      <button type="reset" style="background-color: white;color: #3498db;border: 1px solid #3498db;">Reset</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
